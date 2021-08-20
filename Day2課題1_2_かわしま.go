@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/x509"
 	"fmt"
 )
 
@@ -39,15 +38,6 @@ func calculation(operater string, x float64, y float64) float64 {
 	return ans
 }
 
-type Turtle struct {
-	name string
-	x	float64
-	y	float64
-	a	float64
-}
-
-func (t)
-
 func main() {
 	var num1 float64 = 12.5
 	var num2 float64 = 2.5
@@ -55,5 +45,9 @@ func main() {
 	fmt.Println(subtraction(num1, num2))
 	fmt.Println(multiplication(num1, num2))
 	fmt.Println(division(num1, num2))
+	fmt.Println("***************")
 	fmt.Println(calculation("+", num1, num2))
+	fmt.Println(calculation("-", num1, num2))
+	fmt.Println(calculation("*", num1, num2))
+	fmt.Println(calculation("/", num1, num2))
 }
